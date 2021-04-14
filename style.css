@@ -28,6 +28,11 @@ a:hover{
 
 }
 
+.menu{
+	display: hidden;
+
+}
+
 .navbar{
 	width: 100%;
 	height: 30px;
@@ -36,4 +41,40 @@ a:hover{
 
 ul, li{
 	margin: 5px;
+}
+
+.show{
+	display: block;
+}
+
+.hidden{
+	display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar a {
+    width: 100%;
+    background-color: white;
+    font-size: 20px;
+ 
+  }
+  .navbar{
+  	height: auto;
+    margin-bottom: 10px;
+
+  }
+  h1{
+  	font-size: 20px;
+  }
+.menu{
+	display: block;
+	font-size: 20px;
+	font-style: bold;
+
+}
+
+body{
+	font-size: 12px;
+}
+
 }
