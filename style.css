@@ -76,5 +76,7 @@ ul, li{
 body{
 	font-size: 12px;
 }
-
+*{
+	margin: 7px;
+}
 }
